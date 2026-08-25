@@ -4,9 +4,16 @@
   "version": "1.0",
   "description": "Removes ai overviews from google searches",
   "permissions": [
-    "declarativeNetRequest"
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback"
   ],
-  "host_permissions": [
-    "*://www.google.com/*"
-  ]
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "rules",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
 }
