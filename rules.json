@@ -6,7 +6,10 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||reddit.com",
+      "requestDomains": [
+        "reddit.com",
+        "instagram.com"
+      ],
       "resourceTypes": ["main_frame"]
     }
   }
