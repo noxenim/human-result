@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Google AI Search",
+  "version": "1.0",
+  "description": "Removes ai overviews from google searches",
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "*://www.google.com/*"
+  ]
+}
