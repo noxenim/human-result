@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Block Websites",
+  "name": "Remove AI overview",
   "version": "1.0",
-  "description": "Block specific websites for whatever reason",
+  "description": "block ai overviews",
 
   "permissions": [
     "declarativeNetRequest"
