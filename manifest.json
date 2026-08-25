@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Google AI Search",
+  "name": "Block Websites",
   "version": "1.0",
-  "description": "Removes ai overviews from google searches",
+  "description": "Block specific websites for whatever reason",
 
   "permissions": [
     "declarativeNetRequest"
