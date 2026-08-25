@@ -3,10 +3,15 @@
   "name": "Google AI Search",
   "version": "1.0",
   "description": "Removes ai overviews from google searches",
+
   "permissions": [
-    "declarativeNetRequest",
-    "declarativeNetRequestFeedback"
+    "declarativeNetRequest"
   ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
   "declarative_net_request": {
     "rule_resources": [
       {
