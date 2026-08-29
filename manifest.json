@@ -3,20 +3,24 @@
   "name": "Google AI Search",
   "version": "1.0",
   "description": "Automatically adds -ai to Google searches.",
+
   "permissions": [
     "declarativeNetRequest"
   ],
+
   "host_permissions": [
     "*://www.google.com/*"
   ],
+
   "browser_specific_settings": {
     "gecko": {
-      "id": "google-ai-search@adhi"
+      "id": "@google-ai-search-adhi",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
     }
   },
-  "data_collection_permissions": {
-    "required": ["none"]
-  },
+
   "declarative_net_request": {
     "rule_resources": [
       {
