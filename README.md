@@ -1,4 +1,4 @@
-
+# Firefox Extension to remove ai overviews
 
 A small Firefox browser extension that automatically appends `-ai` to Google search queries.
 
