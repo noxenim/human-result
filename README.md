@@ -1,4 +1,4 @@
-# Google AI Search Extension
+
 
 A small Firefox browser extension that automatically appends `-ai` to Google search queries.
 
