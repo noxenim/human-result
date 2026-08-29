@@ -6,9 +6,10 @@
   "permissions": [
     "declarativeNetRequest"
   ],
-  "host_permissions": [
-     "*://reddit.com/*"
-  ],
+ "host_permissions": [
+  "*://*.google.com/*",
+  "*://*.google.co.in/*"
+],
   "declarative_net_request": {
     "rule_resources": [
       {
