@@ -6,10 +6,9 @@
   "permissions": [
     "declarativeNetRequest"
   ],
- "host_permissions": [
-  "*://*.google.com/*",
-  "*://*.google.co.in/*"
-],
+  "host_permissions": [
+    "*://www.google.com/*"
+  ],
   "declarative_net_request": {
     "rule_resources": [
       {
