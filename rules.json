@@ -5,11 +5,11 @@
     "action": {
       "type": "redirect",
       "redirect": {
-        "url": "https://www.google.com/"
+        "regexSubstitution": "\\1\\2+-ai\\3"
       }
     },
     "condition": {
-      "urlFilter": "||reddit.com/",
+      "regexFilter": "^(https://www\\.google\\.com/search\\?q=)([^&]*)(.*)$",
       "resourceTypes": ["main_frame"]
     }
   }
