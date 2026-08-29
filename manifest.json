@@ -1,17 +1,14 @@
 {
   "manifest_version": 3,
-  "name": "Remove AI overview",
+  "name": "Google AI Search",
   "version": "1.0",
-  "description": "block ai overviews",
-
+  "description": "Automatically adds -ai to Google searches.",
   "permissions": [
     "declarativeNetRequest"
   ],
-
-  "background": {
-    "scripts": ["background.js"]
-  },
-
+  "host_permissions": [
+     "*://reddit.com/*"
+  ],
   "declarative_net_request": {
     "rule_resources": [
       {
