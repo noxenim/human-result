@@ -2,6 +2,8 @@
 
 A small Firefox browser extension that automatically appends `-ai` to Google search queries.
 
+Add it to your firefox browser : https://addons.mozilla.org/en-US/firefox/addon/google-no-ai-search/
+
 ## What it does
 
 When you search for:
