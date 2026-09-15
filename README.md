@@ -4,6 +4,10 @@ A small Firefox browser extension that automatically appends `-ai` to Google sea
 
 Add it to your firefox browser : https://addons.mozilla.org/en-US/firefox/addon/google-no-ai-search/
 
+## Why I built this
+
+I was learning new things and i wanted to work a bit harder to get the information by going through the actual source of information than a ai overvew being shoved into my face. Then i learnt that adding -ai to the end of the searches gets rid of this ai overviews but it was a hassle doing it everytime i searches up something hence why i made this extension.
+
 ## What it does
 
 When you search for:
@@ -30,8 +34,11 @@ The extension uses Firefox's **WebExtensions API** and **Declarative Net Request
 
 ## Installation
 
-This extension can currently be loaded as a temporary Firefox add-on.
+This extension can currently be loaded from the mozilla addons page or as a temporary Firefox add-on.
 
+use it from the addons page : https://addons.mozilla.org/en-US/firefox/addon/google-no-ai-search/
+
+or:
 1. Open Firefox.
 2. Navigate to `about:debugging`.
 3. Select **This Firefox**.
@@ -39,6 +46,3 @@ This extension can currently be loaded as a temporary Firefox add-on.
 5. Select the project's `manifest.json`.
 6. The extension will be loaded and active.
 
-## Why I built this
-
-I was learning new things and i wanted to work a bit harder to get the information by going through the actual source of information than a ai overvew being shoved into my face. Then i learnt that adding -ai to the end of the searches gets rid of this ai overviews but it was a hassle doing it everytime i searches up something hence why i made this extension.
